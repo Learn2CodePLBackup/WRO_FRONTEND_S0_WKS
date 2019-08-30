@@ -7,6 +7,10 @@ section {
     &.mainBody {
         width: 80%;
         margin:auto;
+
+        @media screen and (max-width: $mobile) {
+            width:100%;
+        }
     }
     &.mainThreePlaceholders {
         text-align: center;
@@ -15,15 +19,20 @@ section {
                 width: 30%;
                 display: inline-block;
                 text-align: center;
+
+                @media screen and (max-width: $mobile) {
+                    display: block;
+                    margin: auto;
+                }
     
             }
             &.mainPlaceholder {
-                width: 150px;
-                height: 150px;
+                width: 100px;
+                height: 100px;
                 background: gray;
                 margin: auto;
                 // vertical-align: middle;
-                border-radius: 75px;
+                border-radius: 50px;
             }
         }
     }
@@ -39,6 +48,11 @@ section {
         p {
             display: inline-block;
             width: 30%;
+
+            @media screen and (max-width: $mobile) {
+                display: block;
+                width: 100%;
+            }
         }
 
     }
@@ -51,6 +65,9 @@ section {
                 width: 49%;
                 box-sizing: border-box;
                 
+                @media screen and (max-width: $mobile) {
+                    display: none;
+                }
             }
 
             &.mainLogin {
@@ -58,6 +75,10 @@ section {
                 
                 box-sizing: border-box;
                 width: 49%;
+
+                @media screen and (max-width: $mobile) {
+                    width: 100%;
+                }
             }
 
         }

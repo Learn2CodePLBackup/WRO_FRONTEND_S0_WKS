@@ -1,4 +1,6 @@
-@import './main.scss';
+
+@import './_vars.scss';
+@import './_main.scss';
 
 header {
     border: 3px solid black;
@@ -51,3 +53,4 @@ li:nth-of-type(2){
     height: 450px;
     
 }
+
