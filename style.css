@@ -7,6 +7,11 @@ section.mainBody {
   width: 80%;
   margin: auto;
 }
+@media screen and (max-width: 450px) {
+  section.mainBody {
+    width: 100%;
+  }
+}
 section.mainThreePlaceholders {
   text-align: center;
 }
@@ -15,12 +20,18 @@ section.mainThreePlaceholders div.mainThreeColumns {
   display: inline-block;
   text-align: center;
 }
+@media screen and (max-width: 450px) {
+  section.mainThreePlaceholders div.mainThreeColumns {
+    display: block;
+    margin: auto;
+  }
+}
 section.mainThreePlaceholders div.mainPlaceholder {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background: gray;
   margin: auto;
-  border-radius: 75px;
+  border-radius: 50px;
 }
 section.mainThreeColumnText {
   border: solid black 1px;
@@ -36,10 +47,20 @@ section.mainAdsAndLogin div.mainAd2 {
   width: 49%;
   box-sizing: border-box;
 }
+@media screen and (max-width: 450px) {
+  section.mainAdsAndLogin div.mainAd2 {
+    display: none;
+  }
+}
 section.mainAdsAndLogin div.mainLogin {
   border: solid black 1px;
   box-sizing: border-box;
   width: 49%;
+}
+@media screen and (max-width: 450px) {
+  section.mainAdsAndLogin div.mainLogin {
+    width: 100%;
+  }
 }
 
 .adPlace {
