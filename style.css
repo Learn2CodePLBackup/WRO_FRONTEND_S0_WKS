@@ -73,6 +73,28 @@ section.mainAdsAndLogin div.mainLogin {
   background: lightgray;
 }
 
+.widgetPhone {
+  height: 60px;
+  width: 60px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background: white;
+  border-radius: 30px;
+  border: solid black 1px;
+  cursor: pointer;
+}
+.widgetPhone img {
+  color: white;
+  width: 40px;
+  margin: 10px;
+}
+@media screen and (max-width: 450px) {
+  .widgetPhone {
+    display: none;
+  }
+}
+
 header {
   border: 3px solid black;
   display: flex;
