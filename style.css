@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section.mainThreePlaceholders {
+  text-align: center;
+}
+section.mainThreePlaceholders div.mainThreeColumns {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+}
+section.mainThreePlaceholders div.mainPlaceholder {
+  width: 150px;
+  height: 150px;
+  background: gray;
+  margin: auto;
+}
+section.mainThreeColumnText {
+  border: solid black 1px;
+}
+section.mainThreeColumnText p {
+  display: inline-block;
+  width: 30%;
+}
+section.mainAdsAndLogin div {
+  display: inline-block;
+}
+section.mainAdsAndLogin div.mainAd2 {
+  width: 49%;
+  box-sizing: border-box;
+}
+section.mainAdsAndLogin div.mainLogin {
+  border: solid black 1px;
+  box-sizing: border-box;
+  width: 49%;
+}
+
+.adPlace {
+  background: lightgray;
+}
+
+/*# sourceMappingURL=style.css.map */

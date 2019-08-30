@@ -1,0 +1,63 @@
+* { 
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    &.mainThreePlaceholders {
+        text-align: center;
+        div{
+            &.mainThreeColumns {
+                width: 33%;
+                display: inline-block;
+                text-align: center;
+    
+            }
+            &.mainPlaceholder {
+                width: 150px;
+                height: 150px;
+                background: gray;
+                margin: auto;
+            }
+        }
+    }
+
+    &.mainAd1 {
+        
+    }
+
+
+    &.mainThreeColumnText {
+        // text-align: center;
+        border: solid black 1px;
+        p {
+            display: inline-block;
+            width: 30%;
+        }
+
+    }
+
+    &.mainAdsAndLogin {
+        div {
+            display: inline-block;
+
+            &.mainAd2 {
+                width: 49%;
+                box-sizing: border-box;
+                
+            }
+
+            &.mainLogin {
+                border: solid black 1px;
+                
+                box-sizing: border-box;
+                width: 49%;
+            }
+
+        }
+    }
+}
+
+.adPlace {
+    background: lightgray;
+}
