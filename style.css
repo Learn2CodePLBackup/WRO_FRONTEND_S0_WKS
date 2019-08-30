@@ -1,144 +1,42 @@
-* {
-  padding: 0;
-  margin: 0;
+.panel {
+  border: 2px solid black;
+  height: 300px;
+  width: 250px;
 }
 
-section.mainBody {
-  width: 80%;
-  margin: auto;
-}
-@media screen and (max-width: 450px) {
-  section.mainBody {
-    width: 100%;
-  }
-}
-section.mainThreePlaceholders {
+h1 {
+  font-size: 15px;
   text-align: center;
 }
-section.mainThreePlaceholders div.mainThreeColumns {
-  width: 30%;
-  display: inline-block;
-  text-align: center;
-}
-@media screen and (max-width: 450px) {
-  section.mainThreePlaceholders div.mainThreeColumns {
-    display: block;
-    margin: auto;
-  }
-}
-section.mainThreePlaceholders div.mainPlaceholder {
-  width: 100px;
-  height: 100px;
-  background: gray;
-  margin: auto;
-  border-radius: 50px;
-}
-section.mainThreeColumnText {
-  border: solid black 1px;
-}
-section.mainThreeColumnText p {
-  display: inline-block;
-  width: 30%;
-}
-@media screen and (max-width: 450px) {
-  section.mainThreeColumnText p {
-    display: block;
-    width: 100%;
-  }
-}
-section.mainAdsAndLogin div {
-  display: inline-block;
-}
-section.mainAdsAndLogin div.mainAd2 {
-  width: 49%;
-  box-sizing: border-box;
-}
-@media screen and (max-width: 450px) {
-  section.mainAdsAndLogin div.mainAd2 {
-    display: none;
-  }
-}
-section.mainAdsAndLogin div.mainLogin {
-  border: solid black 1px;
-  box-sizing: border-box;
-  width: 49%;
-}
-@media screen and (max-width: 450px) {
-  section.mainAdsAndLogin div.mainLogin {
-    width: 100%;
-  }
+
+.image {
+  height: 14px;
+  size: 4 px;
 }
 
-.adPlace {
-  background: lightgray;
+.forme {
+  border: 2px solid gray;
+  border-radius: 4px;
+  padding: 3px 20px 0px 20px;
+  margin: 5px;
+  align-items: flex-start;
+  height: 25px;
 }
 
-.widgetPhone {
-  height: 60px;
-  width: 60px;
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  background: white;
-  border-radius: 30px;
-  border: solid black 1px;
-  cursor: pointer;
-}
-.widgetPhone img {
-  color: white;
-  width: 40px;
-  margin: 10px;
-}
-@media screen and (max-width: 450px) {
-  .widgetPhone {
-    display: none;
-  }
+form {
+  align-content: center;
 }
 
-header {
-  border: 3px solid black;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 10px;
+.click button {
+  margin: 20px;
+  padding: 5px;
+  align-items: flex;
+  border: 2px solid gray;
+  border-radius: 5px;
 }
 
-#pic {
-  align-content: left;
-}
-
-#header_pic {
-  height: 60px;
-  width: 180px;
-  margin: 5px 5px 5px 5px;
-}
-
-#menu_nav {
-  margin: auto;
-}
-
-li {
-  float: left;
-  width: 150px;
-  list-style-type: none;
-  border: 3px solid black;
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-li:nth-of-type(2) {
-  border-right: 0px;
-  border-left: 0px;
-}
-
-#search_bar {
-  margin: 10px 20px 5px 0px;
-  height: 40px;
-  border-radius: 20px;
-}
-
-#header_panorama {
-  width: 100%;
-  height: 450px;
+.check {
+  margin: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */

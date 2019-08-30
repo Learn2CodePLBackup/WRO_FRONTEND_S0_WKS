@@ -1,0 +1,43 @@
+.panel {
+    border: 2px solid black;
+    height: 300px;
+    width: 250px;
+    
+}
+h1 {
+    font-size: 15px;
+    text-align: center;
+} 
+
+.image {  
+    height: 14px;
+    size: 4 px;
+}
+
+.forme {
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 3px 20px 0px 20px;
+    margin: 5px;
+    align-items: flex-start;
+    height: 25px;
+}
+
+form {
+align-content: center;
+
+}
+
+.click button{
+    margin: 20px;
+    padding: 5px;
+    align-items: flex;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.check {
+
+    margin: 5px;
+
+}
