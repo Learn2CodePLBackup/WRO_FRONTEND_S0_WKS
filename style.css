@@ -40,6 +40,12 @@ section.mainThreeColumnText p {
   display: inline-block;
   width: 30%;
 }
+@media screen and (max-width: 450px) {
+  section.mainThreeColumnText p {
+    display: block;
+    width: 100%;
+  }
+}
 section.mainAdsAndLogin div {
   display: inline-block;
 }

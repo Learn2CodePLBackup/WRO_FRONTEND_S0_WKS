@@ -48,6 +48,11 @@ section {
         p {
             display: inline-block;
             width: 30%;
+
+            @media screen and (max-width: $mobile) {
+                display: block;
+                width: 100%;
+            }
         }
 
     }
